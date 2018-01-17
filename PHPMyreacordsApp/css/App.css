@@ -1,0 +1,104 @@
+﻿body {
+    
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.Logo{
+   display: block;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+}
+.footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   /*background:black;*/
+   text-align: center;
+   color:antiquewhite;
+   font-size: 12px;
+    -webkit-box-shadow: 0px 3px 7px 0px rgb(128, 128, 128);
+    box-shadow: 0px 3px 7px 0px rgb(128, 128, 128);
+}
+#ULartist {
+    list-style-type: none;
+    padding-top: 50px;
+    padding: 0;
+    margin: 0;
+}
+#ULartist li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; 
+    background-color : lightslategray; 
+    padding: 16px; 
+    text-decoration: none; 
+    font-size: 14px; 
+     font-weight: bold;
+    color: black; 
+    display: block; 
+}
+header {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    text-shadow: 2px 2px 5px grey;
+    clear: left;
+    text-align: center;
+    height:75px;
+}
+buttonHeader {
+    vertical-align: middle;
+}
+#mySearch {
+    background-image: url('/icons/Search-48.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 90%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid black; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+.CoverImg{
+    height :150px;
+    width:150px;
+}
+.mediaTable{
+    width : 100%;
+    margin-top: -1px; 
+    background-color : lightslategray; 
+    padding: 16px; 
+    text-decoration: none; 
+    font-size: 14px; 
+     font-weight: bold;
+    color: black; 
+    display: block; 
+}
+.madiaRad{
+    text-decoration: none; 
+    border-bottom-style: solid ;
+    padding: 16px; 
+    width : 100%;
+}
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.MenuBackgroundTop{
+    width : 295px;
+    height:295px;
+}
+main {
+    flex: 1 0 auto;
+}
+.icon-background1 {
+    color: #ffc0ff;
+}
+.infoText {
+    color: white;
+    font-size: 40px;
+}

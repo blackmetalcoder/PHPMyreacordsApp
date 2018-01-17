@@ -1,0 +1,65 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>PHPMyreacordsApp</Name>
+    <ProjectGuid>8fc1ceec-de5c-418e-86af-ac1bbce63d70</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>PHPMyreacordsApp</AssemblyName>
+    <SpecificPageValue>index.php</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Albums.php" />
+    <Compile Include="allrecords.php" />
+    <Compile Include="artister.php" />
+    <Compile Include="index.php" />
+    <Compile Include="testCoockie.php" />
+    <Compile Include="tracks.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\menu.png" />
+    <Content Include="bower.json" />
+    <Content Include="css\App.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\w3-theme-black.css" />
+    <Content Include="css\W3.css" />
+    <Content Include="icons\111-user.png" />
+    <Content Include="icons\13-target.png" />
+    <Content Include="icons\17-bar-chart.png" />
+    <Content Include="icons\187-pencil.png" />
+    <Content Include="icons\221-recordplayer.png" />
+    <Content Include="icons\287-at.png" />
+    <Content Include="icons\33-cabinet.png" />
+    <Content Include="icons\53-house.png" />
+    <Content Include="icons\65-note.png" />
+    <Content Include="icons\83-calendar.png" />
+    <Content Include="icons\84-lightbulb.png" />
+    <Content Include="icons\android-icon-36x36.png" />
+    <Content Include="icons\favicon-16x16.png" />
+    <Content Include="icons\Logo.scale-100.png" />
+    <Content Include="icons\magnify.gif" />
+    <Content Include="icons\Search-48.png" />
+    <Content Include="icons\Square150x150Logo.scale-125.png" />
+    <Content Include="icons\Square150x150Logo.scale-200.png" />
+    <Content Include="js\jquery-3.1.1.min.js" />
+    <Content Include="js\jquery-3.1.1.min.map" />
+    <Content Include="js\jquery-ui-1.12.1.js" />
+    <Content Include="js\jquery.cookie-1.4.1.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="icons\" />
+    <Folder Include="css\" />
+    <Folder Include="js\" />
+    <Folder Include="fonts\" />
+    <Folder Include="assets\" />
+  </ItemGroup>
+</Project>
